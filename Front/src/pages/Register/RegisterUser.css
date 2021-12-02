@@ -1,0 +1,73 @@
+.unsaved {
+    background-color: white;
+    border: 1px #FFC07F solid;
+    color: #E5571A;
+}
+
+.unsaved:hover {
+    background-color: #FFC07F
+}
+
+.saved {
+    background-color: #108357;
+    border: 1px #0c6946 solid;
+    color: white
+}
+
+.saved:hover {
+    background-color: #139c68;
+}
+
+.position-custom{
+    margin-top: 90px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.model-position {
+    margin-top: -120px !important;
+}
+
+.btn-cancelar2 {
+    background-color: #860E1C;
+    border: solid 1px #860E1C;
+    color: white;
+}
+
+.btn-cancelar2:hover {
+    color: #860E1C;
+    background-color: white
+}
+
+.modal-loading {
+    width: 15% !important;
+}
+
+
+@media screen and (max-width: 475px) {
+    .model-position {
+        margin-top: -130px !important;
+    }
+    .position-custom{
+        margin-top: 100px !important; 
+    }
+}
+
+
+
+.modallimpo{
+
+
+box-shadow: none !important; 
+border: none !important;
+margin: 0 auto;
+
+
+}
+
+.loading-modal{
+    margin: 0 auto;
+    
+    
+
+}

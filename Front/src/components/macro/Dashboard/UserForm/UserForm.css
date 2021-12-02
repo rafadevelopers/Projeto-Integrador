@@ -1,0 +1,24 @@
+/* CARD ESTILOS INICIO  */
+
+.card-esquerda {
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    padding: 32px;
+}
+
+.card-esquerda h3,
+.card-esquerda h4 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    color: #860E1C;
+}
+/* CARD ESTILOS FIM  */
+
+/* INICIO FORM  */
+.custom-label{
+    font-weight: bold;
+}
+
+.obrigatorio {
+    color: #860E1C;
+}
+
+/* FORM FIM  */

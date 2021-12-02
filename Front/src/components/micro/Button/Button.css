@@ -1,0 +1,63 @@
+.btn-custom-default {
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: 0.1s;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+/* BOTAO PRINCIPAL inicio */
+
+.btn-principal{
+    background-color: #E5571A;
+    border: solid 1px #E5571A;
+    color: white;
+}
+
+.btn-principal:hover {
+    background-color: #FFC07F;
+    border: solid 1px #FFC07F;
+    color: #860E1C;
+}
+
+/* BOTAO PRINCIPAL fim */
+
+/* BOTAO INDISPONIVEL INICIO */
+.btn-indisponivel {
+    color: rgb(104, 104, 104);
+    background-color: rgb(216, 216, 216);
+    border: solid 1px rgb(216, 216, 216);
+}
+
+/* BOTAO INDISPONIVEL FIM  */
+
+/* BOTAO CANCELAR inicio */
+
+.btn-cancelar {
+    background-color: white;
+    border: solid 1px #860E1C;
+    color: #860E1C;
+}
+
+.btn-cancelar:hover {
+    color: white;
+    background-color: #860E1C;
+}
+
+.home-btn {
+
+    width      : 85%;
+    margin-left: 7.5%;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+@media (max-width:355px) {
+    .home-btn {
+        font-size: 12px;
+    }
+}
+
+
+/* BOTAO CANCELAR fim */

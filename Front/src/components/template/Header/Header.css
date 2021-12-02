@@ -1,0 +1,165 @@
+header {
+    margin-bottom: 30px;
+}
+
+.topHeader,
+.midHeader,
+.telefone,
+.navegacao,
+.logo,
+.blocoTelefone {
+    color          : #ffbf7f;
+    font-size      : 13px;
+    text-decoration: none;
+    text-decoration: #FFC07F;
+    text-align     : center;
+    font-weight    : bold;
+}
+
+.topHeader,
+.midHeader,
+.logo,
+.blocoTelefone {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+
+.topHeader {
+    background-color: #4E1E00;
+    ;
+    padding: 10px;
+}
+
+.iconTopheader {
+    margin-right: 10px;
+}
+
+.midHeader {
+
+    padding         : 25px;
+    background-color: rgba(134, 14, 28, 1);
+}
+
+.Barranavegacao {
+    background-color: rgba(23, 9, 0, 1);
+    padding         : 12px;
+    font-weight     : bold;
+    text-align      : center;
+
+}
+
+.navegacao:hover,
+.telefone:hover,
+ul:hover {
+    color: #d1781ff3;
+}
+
+
+.canva {
+    width : 100vw;
+    height: 230px;
+
+    background-color: rgba(23, 9, 0, 1);
+
+}
+
+.cana {
+    width           : 100vw;
+    background-color: #860E1C;
+}
+
+.listaCanva {
+    text-align: center;
+}
+
+.blocoBotao {
+    background-color: #170900;
+    text-decoration : none;
+    border          : none;
+
+}
+
+@media (min-width:998px) {
+
+    .blocoBotao {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .blocoTelefone {
+        display: none;
+    }
+}
+
+@media (max-width:999px) {
+    .navDesktop {
+        display: none;
+    }
+}
+
+
+@media (max-width:999px) {
+    .pesquisa {
+        display: none;
+    }
+
+}
+
+.blocoMeusPedidos,
+.blocoMinhaLista {
+    font-weight: bold;
+}
+
+@media (max-width:575px) {
+    .blocoMeusPedidos {
+        display: none;
+    }
+}
+
+.blocoTelefone {
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+    margin : 0;
+}
+
+.menuHamb {
+    text-decoration: none;
+}
+
+.pesquisaMobile {
+    width: 70%;
+
+}
+
+.blocoMeuCarrinho{
+    display: flex;
+    position:relative
+}
+
+.qntCart {
+    position: absolute;
+    left: 28px;
+    top: -2px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background: #FFC07F;
+    color: #860E1C;
+    border: 1px solid ;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+   
+    
+}
+
+

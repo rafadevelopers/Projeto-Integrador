@@ -1,0 +1,32 @@
+@media (min-width:300px) {
+    .carousel{
+        height: 150px;
+        
+    }
+    
+}
+
+@media (min-width:500px) {
+    .carousel{
+        height: 220px;
+        
+    }
+    
+}
+
+@media (min-width:800px) {
+    .carousel{
+        height: 300px;
+        
+    }
+    
+}
+
+@media (min-width:1200px) {
+    .carousel{
+        height: 435px;
+    }
+    
+}
+
+

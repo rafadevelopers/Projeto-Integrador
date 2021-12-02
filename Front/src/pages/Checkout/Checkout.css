@@ -1,0 +1,38 @@
+
+  
+  input[type='radio']{
+      border: 1px solid #860E1C;
+  }
+  
+  input[type='radio']:checked{
+      background-color: #860E1C;
+      border: 1px solid #860E1C;
+    }
+  
+    input[type='radio']:focus{
+      border-color: #853a43;
+      outline: 0;
+      box-shadow: 0 0 0 .25rem rgb(133, 58, 67, 0.2);
+    }
+
+.btn-principal-finalizar {
+    background-color: #E5571A;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+.img-icone {
+    border:none;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.checkout-itens{
+  box-shadow: 4px 4px 10px 5px rgb(0 0 0 / 25%);
+  padding: 16px;
+}

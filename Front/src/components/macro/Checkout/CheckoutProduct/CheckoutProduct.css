@@ -1,0 +1,29 @@
+.btn-custom {
+  background-color: #860e1c;
+  border: none;
+  color: white;
+
+  text-align: center;
+
+  width: 25px;
+}
+
+.btn-lix-custom {
+  background-color: white;
+
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #5a0913;
+
+  color: white;
+}
+
+.checkout-link {
+  text-decoration: none;
+}
+
+.checkout-description{
+  font-size: 0.8rem;
+}

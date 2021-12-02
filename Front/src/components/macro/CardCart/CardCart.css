@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+
+
+
+.btn-custom{
+
+    background-color: #860E1C;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    
+    width: 30px;
+  
+
+
+}
+
+input{
+    width: 30px;
+}
+
+.btn-lix-custom{
+background-color: white;
+    
+    border: none;
+    
+}
+
+.btn-custom:hover{
+
+    background-color: #5a0913;
+    
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

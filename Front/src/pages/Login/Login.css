@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Barlow:wght@100;300;400;700&display=swap');
+
+.custom-label{
+    font-weight: bold;
+}
+
+.inputs-login a {
+    color: #860E1C;
+    text-decoration: none;
+}
+
+.cadastro a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 190px;
+}

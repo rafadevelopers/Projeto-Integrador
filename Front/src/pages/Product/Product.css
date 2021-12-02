@@ -1,0 +1,124 @@
+/* PRODUTO */
+.ultimas-unidades {
+  background-color: #860e1c !important;
+}
+.imagem-produto {
+  height: 220px;
+  width: 230px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-right: 50px;
+}
+
+.col-produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome-do-produto {
+  padding-left: 2px;
+  font-size: 30px;
+  width: 264px;
+}
+
+.preco {
+  color: rgba(0, 0, 0, 0.87);
+  padding-top: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.texto-categoria {
+  color: #860e1c;
+}
+
+.texto-categoria {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.texto-cartao-credito,
+.texto-boleto,
+.texto-pix {
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+.texto-cartao-credito::before {
+  content: "";
+  background-image: url(../../assets/imgs/Product/icone-cartao-credito.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -45px;
+  width: 40px;
+  height: 40px;
+}
+
+.texto-boleto::before {
+  content: "";
+  background-image: url(../../assets/imgs/Product/icone-boleto.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -45px;
+  width: 40px;
+  height: 40px;
+}
+
+.texto-pix::before {
+  content: "";
+  background-image: url(../../assets/imgs/Product/icone-pix.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -45px;
+  width: 40px;
+  height: 40px;
+}
+
+/* DESCRIÇÃO */
+
+.col-descricao,
+.col-especificacoes {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+}
+
+.listaDescricaoPdp {
+  list-style-type: none;
+}
+
+.btn-comprar {
+  width: 240px;
+  font-size: 20px;
+}
+
+.caixa-cor-cabo {
+  height: 43px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .caixa-cor-cabo {
+    margin-bottom: 20px;
+  }
+}
+
+.produto {
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.btn-comprar {
+  width: 180px;
+}

@@ -1,0 +1,14 @@
+.card-lista {
+    border: 1px #ccc solid;
+    padding: 16px;
+}
+
+.card-lista h5 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    color: #860E1C;
+}
+
+.infos-lista {
+    font-size: 0.8rem;
+    color: #444;
+}

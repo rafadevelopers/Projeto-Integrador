@@ -1,0 +1,10 @@
+.dashboard-card {
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    padding: 32px;
+}
+
+.dashboard-card h3,
+.dashboard-card h4 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    color: #860E1C;
+}

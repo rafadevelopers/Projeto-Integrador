@@ -1,0 +1,150 @@
+
+.filtros {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.555);
+    border-radius: 8px;
+    height: 50%;
+}
+
+.titulo-filtro {
+    padding-top: 10px;
+}
+
+
+.custom-check {
+    border-color: #860e1c;
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.label-check-custom {
+    font-size: 20px;
+    padding-left: 6px;
+}
+
+.caixa-filtro {
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+.linha-produtos-encontrados {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    align-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.produtos-encontrados {
+    width: 250px;
+}
+
+.drop-ordena {
+    width: 170px;
+}
+
+.imagem-produto-ctg {
+    background-color: #C4C4C4;
+    height: 200px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-produto-ctg:hover  {
+    cursor: pointer;
+}
+
+.btn-comprar {
+    width: -webkit-fill-available;
+}
+
+.item-catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.item-catalogo:hover {
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.16); 
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.16);
+    cursor: pointer;
+}
+
+.nome-do-produto-ctg {
+    font-size: 22px;
+    margin-bottom: 0px;
+    
+}
+
+.preco-do-produto {
+    color: #860e1c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.catalogo-produtos2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.linha-botao-carregar {
+    display: flex;
+    
+}
+
+.botao-carregar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width:974px) and (max-width: 1190px) {
+    .imagem-produto-ctg {
+        width: 224px;
+    }
+
+}
+
+@media (max-width: 448px) {
+    .drop-ordena {
+        width: 150px;
+    }
+
+    .produtos-encontrados {
+        width: 125px;
+    }
+
+    
+    
+}
+.texto-pesquisa{
+    font-size: 25px;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.texto-pesquisa, .produtos-encontrados{
+    margin-left: 15px;
+}
+
+@media (max-width: 449px) {
+   
+    .texto-pesquisa {
+        font-size: 18px;
+    }
+    
+}

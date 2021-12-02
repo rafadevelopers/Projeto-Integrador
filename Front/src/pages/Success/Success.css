@@ -1,0 +1,46 @@
+.colorwine{
+
+    color:  #860E1C;
+    
+}
+
+.vlr-total{
+    font-weight: bold;
+}
+.btn-cancelar-custom{
+    font-size: 12px;
+}
+
+
+
+.Style-P{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+
+.imgCart{
+
+    float: left;
+    width: 60px;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+body, h5{
+    font-family:  'Archivo Narrow', sans-serif;
+}
+
+.teste{
+border-style: none;
+stroke: black;
+}
+
+
+
+
+
+

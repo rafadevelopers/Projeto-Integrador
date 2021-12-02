@@ -1,0 +1,71 @@
+body {
+    font-family: 'Barlow', sans-serif;
+
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    color      : #860E1C;
+    font-weight: bold;
+    font-size  : 32px;
+    margin-top : 2%;
+}
+
+.borda {
+    border       : solid 1px rgba(0, 0, 0, 0.315);
+    margin-bottom: 2%;
+}
+
+h3 {
+    color      : #860E1C;
+    font-weight: bold;
+}
+
+.statusPedido {
+    color      : green;
+    font-weight: bold;
+}
+
+.btn-back {
+    width      : 150px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.nomePedido {
+    width: 50%;
+}
+
+.pagamentos {
+    display       : flex;
+    flex-direction: column;
+
+
+}
+
+.nomeProduto {
+    width: 70%;
+}
+
+.pedido {
+    display: flex;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .pedido {
+        display: block;
+    }.nomeProduto {
+        width: 100%;
+    }
+}
+
+.efetuado{
+    color: black;
+    font-weight: bold;
+}

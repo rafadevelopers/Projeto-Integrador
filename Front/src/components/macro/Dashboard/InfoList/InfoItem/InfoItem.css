@@ -1,0 +1,11 @@
+.btn-cancelar2 {
+    background-color: #860E1C;
+    border: solid 1px #860E1C;
+    color: white;
+}
+
+.btn-cancelar2:hover {
+    color: #860E1C;
+    background-color: white
+}
+

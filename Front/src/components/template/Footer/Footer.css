@@ -1,0 +1,101 @@
+footer {
+    font-family: 'Barlow', sans-serif;
+    background-color: rgba(134, 14, 28, 1);
+}
+
+.footer,
+.telefonesFooter,
+.footerMobile {
+    color          : #FFC07F;
+    font-size      : 16px;
+    text-decoration: none;
+    text-decoration: #FFC07F;
+}
+
+
+.footer,
+.footerMobile {
+    background-color: rgba(134, 14, 28, 1);
+    font-weight     : bold;
+    padding-top     : 1px;
+
+}
+
+.iconRedes,
+.iconPagamento {
+    margin-left: 12%;
+}
+
+.espaco-icone-mobile {
+    margin-left: 10px;
+}
+
+
+.iconPix {
+    margin-left: 21%;
+}
+
+.iconBoleto {
+    margin-left: 2%;
+}
+
+.icones {
+    width : 32px;
+    height: 32px;
+}
+
+.icone-espaco {
+    margin-left: 40px;
+}
+
+
+
+.footerMobile {
+    text-align: center;
+
+}
+
+.iconMobile {
+    padding: 2%;
+}
+
+@media (min-width:869px) {
+
+    .footerMobile,
+    .listMobile {
+        display: none;
+    }
+
+}
+
+@media (max-width:869px) {
+
+    .final,
+    .endereco,
+    .footer {
+        display: none;
+
+    }
+}
+
+.final,
+.finalMobile {
+    color      : rgba(255, 255, 255, 0.774);
+    font-weight: normal;
+}
+
+.linkFooter:hover,
+.telefonesFooter:hover {
+    color: #d1781ff3;
+}
+
+.ajuste {
+    display: flex;
+  
+
+}
+
+.visa{
+    width: 40px;
+    height: 40px;
+}

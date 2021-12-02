@@ -1,0 +1,90 @@
+/* * MENU MOBILE HEADER INICIO  */
+
+.menu-mobile-header {
+    height: 50px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    z-index: 1;
+}
+
+.id-usuario h4 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    color: #860E1C;
+}
+
+/* MENU MOBILE HEADER FIM  */
+/* MENU ITEMS INICIO  */
+
+.menu-mobile {
+    position: relative;
+}
+
+.menu-mobile-items-container {
+    z-index: 0;
+    transition: 0.3s ease-in;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.menu-items {
+    list-style: none;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #860E1C;
+}
+
+.menu-item:hover {
+    background-color: #a54a55;
+}
+
+.menu-item::after {
+    content: "";
+    border-bottom: 1px white solid;
+    width: 100%;
+    display: block;
+}
+
+
+.menu-item a {
+    text-decoration: none;
+    color:  white;
+    display: block;
+    padding: 16px 0;
+}
+
+.menu-item a:hover {
+    color: white
+}
+
+.menu-fechado {
+    opacity: 0;
+    transform: translateY(-600px);
+}
+
+.btn-arrow {
+    transition: 0.3s;
+}
+.btn-aberto {
+    transform: rotate(180deg);
+}
+
+/* MENU ITEMS FIM  */
+
+/* MENU LATERAL DESKTOP INICIO  */
+.id-usuario-desktop h3 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    color: #860E1C;
+}
+
+.id-usuario-desktop {
+    border: 1px #ccc solid;
+    padding: 24px 8px;
+    border-bottom: none;
+}
+
+/* MENU LATERAL DESKTOP FIM */

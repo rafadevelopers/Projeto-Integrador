@@ -1,0 +1,15 @@
+.produto-preco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-produtos, .valor-produtos {
+    width: 50%;
+}
+
+@media (min-width:559px) and (max-width: 985px) {
+    .info-produtos, .valor-produtos {
+        width: 25%;
+    }
+
+}
